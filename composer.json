@@ -1,0 +1,24 @@
+{
+    "name": "yangusik/twofactor",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangusik",
+            "email": "minibaev2001@yandex.ru",
+            "homepage": "https://github.com/YanGusik"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "paragonie/constant_time_encoding": "^2.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YanGusik\\TwoFactor\\Providers\\TwoFactorProvider"
+            ]
+        }
+    }
+}
